@@ -1,0 +1,7 @@
+{
+    "exclude": [
+        "eslint.*",
+        "jest.*",
+        "@testing-library/*"
+    ]
+}
