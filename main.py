@@ -22,7 +22,7 @@ in this document.
 INCLUSION OF A PACKAGE NAME IN THIS FILE DOES NOT NECESSARILY INDICATE THAT THE
 COMPILED OUTPUT OF THE PACKAGE IS PART OF THE WEBSITE/PROJECT. NO PART OF THIS
 FILE IS INTENDED TO SUGGEST ENDORSEMENT BY THE AUTHOR OF ANY OF THE NPM
-
+PACKAGES.
 """
 
 def is_package_excluded(package, parent):
@@ -135,5 +135,5 @@ else:
         print("Warning: package %s@%s does not seem to contain a license file" % (name, version), file=sys.stderr)
     
     print(header)
-    print("=" * 100)
+    print("=" * 100 + "\n")
     print(output)
