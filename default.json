@@ -2,6 +2,6 @@
     "exclude": [
         "eslint.*",
         "jest.*",
-        "@testing-library/*"
+        "@testing-library/.*"
     ]
 }
